@@ -22,7 +22,7 @@ const AboutUs = () => {
                 <li className="aboutUs__item">
                   <img className="aboutUs__img" src={Us1} alt=" rasm" />
                   <h4 className="aboutUs__title4">1. Schedule online</h4>
-                  <p className="abouUs__paragraph">
+                  <p className="aboutUs__paragraph">
                     Sagittis nibh scelerisque vitae egetolment vulputate sem
                     elementum sed n.
                   </p>
@@ -30,7 +30,7 @@ const AboutUs = () => {
                 <li className="aboutUs__item">
                   <img className="aboutUs__img" src={Us2} alt=" rasm" />
                   <h4 className="aboutUs__title4">2. Pay online easily</h4>
-                  <p className="abouUs__paragraph">
+                  <p className="aboutUs__paragraph">
                     Vitae ut accumsan blandit ullamcorperolm suscipit dui
                     gravida amet at nunc.
                   </p>
@@ -38,7 +38,7 @@ const AboutUs = () => {
                 <li className="aboutUs__item">
                   <img className="aboutUs__img" src={Us3} alt=" rasm" />
                   <h4 className="aboutUs__title4">3. Get your house cleaned</h4>
-                  <p className="abouUs__paragraph">
+                  <p className="aboutUs__paragraph">
                     Nunc maecenas sollicitudin metus tellus mattis sed porttitor
                     cursus eleifend.
                   </p>
