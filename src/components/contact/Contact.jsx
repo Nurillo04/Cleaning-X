@@ -35,12 +35,54 @@ const Contact = () => {
               <button className="contact__btn2">Browse our packages</button>
             </div>
             <div className="contact__right">
-              {/* <form>
-                <label> Full name</label> <br />
-                <input type="text" />
-                <label>Phone number</label> <br />
-                <input type="tel" />
-              </form> */}
+              <form>
+                <div className="contact__right-div">
+                  <div>
+                    <label className="contact__label"> Full name</label> <br />
+                    <input className="contact__input" type="text" /> <br />
+                  </div>
+                  <div className="contact__right-2">
+                    <label className="contact__label">Phone number</label>
+                    <br />
+                    <input className="contact__input" type="tel" /> <br />
+                  </div>
+                </div>
+                <div className="contact__right-div">
+                  <div>
+                    <label className="contact__label">Address</label> <br />
+                    <input className="contact__input" type="text" /> <br />
+                  </div>
+                  <div className="contact__right-2">
+                    <label className="contact__label">Email</label> <br />
+                    <input className="contact__input" type="email" /> <br />
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <label className="contact__label">Requested service</label>
+                    <br />
+                    <input className="contact__input" type="text" /> <br />
+                  </div>
+                  <div className="contact__right-2">
+                    <label className="contact__label">Day of service</label>
+                    <br />
+                    <input className="contact__input" type="text" /> <br />
+                  </div>
+                </div>
+                <label className="contact__label"> Add a note</label> <br />
+                <p className="contact__text">
+                  <textarea
+                    className="contaxt__text"
+                    cols="30"
+                    rows="10"
+                  ></textarea>
+                </p>
+                <input
+                  className="contact__btn"
+                  type="submit"
+                  value="Submit message"
+                />
+              </form>
             </div>
           </div>
         </div>
