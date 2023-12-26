@@ -1,0 +1,98 @@
+.contact {
+  background: #f7f9fc;
+  padding: 131px 0px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+  }
+  &__left {
+    width: 673px;
+    padding: 57px;
+  }
+  &__title {
+    margin-bottom: 32px;
+    color: #211f54;
+    font-family: Roboto-Bold;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57.984px;
+  }
+  &__text {
+    color: #6e7191;
+    font-family: Roboto-Regular;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.006px; /* 142.886% */
+  }
+  &__telephone {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 12px;
+    margin: 30px 0px;
+  }
+  &__telephoneImg {
+    width: 72px;
+    height: 72px;
+  }
+  &__number p {
+    color: #6e7191;
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+  }
+  &__number h6 {
+    color: #211f54;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36.008px;
+  }
+  &__hr {
+    width: 487px;
+    flex-shrink: 0;
+    margin: 36px 0px 56px 0px;
+  }
+  &__title5 {
+    margin-bottom: 10px;
+    color: #211f54;
+    font-family: Roboto-Bold;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36.008px;
+  }
+  &__btn2 {
+    margin-top: 30px;
+    border-radius: 14px;
+    padding: 17px 24px;
+    border: 0px;
+    color: #fff;
+    text-align: center;
+    font-family: Roboto-Bold;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    border: 1px solid #eff0f6;
+    background: #fff;
+    box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
+    color: #211f54;
+  }
+  &__right {
+    border-radius: 16px;
+    border: 1px solid #eff0f6;
+    background: #fff;
+    box-shadow: 0px 2px 6px 0px rgba(20, 20, 43, 0.04);
+  }
+}
