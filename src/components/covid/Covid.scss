@@ -1,0 +1,88 @@
+.covid {
+  margin-top: 147px;
+  border-radius: 24px;
+  background: #211f54;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 72px;
+  }
+  &__title {
+    color: #fff;
+    font-family: Roboto-Bold;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  &__title5 {
+    margin-bottom: 17px;
+    color: #fff;
+    font-family: Roboto-Bold;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+  }
+  &__text {
+    color: #fff;
+    font-family: Roboto-Regular;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.006px;
+  }
+  &__bottom {
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    gap: 28px;
+  }
+  &__btn {
+    padding: 17px 24px;
+    border: 0px;
+    border-radius: 14px;
+    background: #0075ff;
+    color: #fff;
+    text-align: center;
+    font-family: Roboto-Bold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+  }
+  &__telephone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+  &__telephoneImg {
+    width: 72px;
+    height: 72px;
+  }
+  &__number p {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+  }
+  &__number h6 {
+    color: #fff;
+    font-family: Roboto-Bold;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36.008px;
+  }
+  &__left__img {
+    width: 518px;
+    height: 676px;
+  }
+}
