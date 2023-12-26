@@ -8,6 +8,8 @@ import ser1 from "./images/picture/ser1.png";
 import ser2 from "./images/picture/ser2.png";
 import ser3 from "./images/picture/ser3.png";
 import covidbg from "./images/picture/covid_bg.png";
+import articlesImg1 from "./images/picture/artImg1.png";
+import articlesImg2 from "./images/picture/artImg2.png";
 
 // import Bold from "./fonts/Roboto/Roboto-Bold";
 // import Regular from "./fonts/Roboto/Roboto-Regular";
@@ -25,4 +27,6 @@ export {
   ser2,
   ser3,
   covidbg,
+  articlesImg1,
+  articlesImg2,
 };

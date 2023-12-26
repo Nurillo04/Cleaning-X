@@ -1,6 +1,7 @@
 import React from "react";
 import {
   AboutUs,
+  Articles,
   Covid,
   Footer,
   Header,
@@ -16,6 +17,7 @@ const Home = () => {
       <AboutUs />
       <Services />
       <Covid />
+      <Articles />
       <Footer />
     </>
   );
